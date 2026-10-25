@@ -1,0 +1,32 @@
+name: Nandesho
+options:
+  bundleIdPrefix: jp.co.texia
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  Nandesho:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Nandesho
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: jp.co.texia.nandesho
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: NO
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Nandesho/Info.plist
+    configFiles:
+      Debug: Secrets.xcconfig
+      Release: Secrets.xcconfig
+schemes:
+  Nandesho:
+    build:
+      targets:
+        Nandesho: all
+    run:
+      config: Debug
+    test:
+      config: Debug

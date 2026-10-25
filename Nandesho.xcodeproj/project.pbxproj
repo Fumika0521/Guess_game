@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D68D511BAC0E61D8492D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE89A2F3D03691473A43B6D /* Assets.xcassets */; };
+		7106C7CC8099026B60630DC5 /* NandeshoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E79FBA3FEAFEEFB45298FD /* NandeshoApp.swift */; };
+		90C35A2DD8A0E0B9339846C6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C634420F31F93A4E56576DC3 /* GameViewModel.swift */; };
+		AE234699B2F11C39E3313963 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B72BCD60D99F2F65B542CA3 /* GameView.swift */; };
+		C38F033D1152C6FEAE9E6962 /* AkinatorGameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1D18BE76D3C02F0BD06E3 /* AkinatorGameService.swift */; };
+		C70775EFDC1A6C9B2648DA6D /* ClaudeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F8224B8C108CCA92CEDD2C /* ClaudeMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B50FA90F2533D92A7945295 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		1BE89A2F3D03691473A43B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B72BCD60D99F2F65B542CA3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6BD1D18BE76D3C02F0BD06E3 /* AkinatorGameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkinatorGameService.swift; sourceTree = "<group>"; };
+		93E79FBA3FEAFEEFB45298FD /* NandeshoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NandeshoApp.swift; sourceTree = "<group>"; };
+		C0F8224B8C108CCA92CEDD2C /* ClaudeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeMessage.swift; sourceTree = "<group>"; };
+		C634420F31F93A4E56576DC3 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		D636DEAE0E3B031276F7A027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F1BB680F2B18822019373B30 /* Nandesho.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Nandesho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2C0AAA35C538219F1CDC36B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B72BCD60D99F2F65B542CA3 /* GameView.swift */,
+				C634420F31F93A4E56576DC3 /* GameViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46D3E0E8416ED23A6EA12644 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0F8224B8C108CCA92CEDD2C /* ClaudeMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FA25B5FE2C6B62044FC056F /* Nandesho */ = {
+			isa = PBXGroup;
+			children = (
+				0B50FA90F2533D92A7945295 /* Secrets.xcconfig */,
+			);
+			name = Nandesho;
+			path = .;
+			sourceTree = "<group>";
+		};
+		51E05CB8E9F3974CB4319D3E /* Nandesho */ = {
+			isa = PBXGroup;
+			children = (
+				D636DEAE0E3B031276F7A027 /* Info.plist */,
+				93E79FBA3FEAFEEFB45298FD /* NandeshoApp.swift */,
+				46D3E0E8416ED23A6EA12644 /* Models */,
+				F4BCF96CE488BE16F8B56374 /* Resources */,
+				C84B48B147CDD82EE7A327A2 /* Services */,
+				2C0AAA35C538219F1CDC36B6 /* Views */,
+			);
+			path = Nandesho;
+			sourceTree = "<group>";
+		};
+		565828B71EB409811F6AE884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BB680F2B18822019373B30 /* Nandesho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF358933A5884FA58EE1455 = {
+			isa = PBXGroup;
+			children = (
+				51E05CB8E9F3974CB4319D3E /* Nandesho */,
+				4FA25B5FE2C6B62044FC056F /* Nandesho */,
+				565828B71EB409811F6AE884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84B48B147CDD82EE7A327A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6BD1D18BE76D3C02F0BD06E3 /* AkinatorGameService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F4BCF96CE488BE16F8B56374 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BE89A2F3D03691473A43B6D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A28826407BB2DEAAAA8F8E /* Nandesho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9230786A2230DC863BF08629 /* Build configuration list for PBXNativeTarget "Nandesho" */;
+			buildPhases = (
+				CF5E769BFFAE3CF051C698B4 /* Sources */,
+				C6C6FD8DDB9D787CA1A0B2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nandesho;
+			packageProductDependencies = (
+			);
+			productName = Nandesho;
+			productReference = F1BB680F2B18822019373B30 /* Nandesho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7ED03E2B281AAD00D347AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F30F7631A978FB8DF4D707B6 /* Build configuration list for PBXProject "Nandesho" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9AF358933A5884FA58EE1455;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 565828B71EB409811F6AE884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A28826407BB2DEAAAA8F8E /* Nandesho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C6FD8DDB9D787CA1A0B2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D68D511BAC0E61D8492D7BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5E769BFFAE3CF051C698B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38F033D1152C6FEAE9E6962 /* AkinatorGameService.swift in Sources */,
+				C70775EFDC1A6C9B2648DA6D /* ClaudeMessage.swift in Sources */,
+				AE234699B2F11C39E3313963 /* GameView.swift in Sources */,
+				90C35A2DD8A0E0B9339846C6 /* GameViewModel.swift in Sources */,
+				7106C7CC8099026B60630DC5 /* NandeshoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CB20AEE437920E3569CDC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B50FA90F2533D92A7945295 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nandesho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.texia.nandesho;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5D43CB462A3E1EED0FBA3B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B50FA90F2533D92A7945295 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nandesho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.texia.nandesho;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE686F3756C26AE8EC98F383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F51CFD6EC51487EB5580522D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9230786A2230DC863BF08629 /* Build configuration list for PBXNativeTarget "Nandesho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D43CB462A3E1EED0FBA3B16 /* Debug */,
+				0CB20AEE437920E3569CDC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F30F7631A978FB8DF4D707B6 /* Build configuration list for PBXProject "Nandesho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51CFD6EC51487EB5580522D /* Debug */,
+				BE686F3756C26AE8EC98F383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7ED03E2B281AAD00D347AF /* Project object */;
+}
